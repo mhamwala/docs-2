@@ -63,13 +63,7 @@ To submit a proposed change:
 
 The general rule is that all PRs should be 100% complete - meaning they should
 include documentation changes related to the change. A
-significant exception is work-in-progress PRs. These should be indicated by a
-`[WIP]` prefix in the PR title. WIP PRs should not be merged as long as they are
-marked WIP.
-
-When ready, if you have not already done so, sign a
-[contributor license agreement](#Contributor-License-Agreement) and submit the
-PR.
+significant exception is work-in-progress PRs. These should be indicated by opening a draft pull request. To open a draft pull request, click the dropdown arrow that appears next to the “Create pull request” button and then select the "Create draft pull request" option.
 
 ## Contributor License Agreement
 
