@@ -4,7 +4,7 @@ path: /docs/stacks/stack-stucture
 section: Stacks
 ---
 ## Stack structure
-```
+```bash
 my-stack
 ├── README.md
 ├── stack.yaml
@@ -13,13 +13,24 @@ my-stack
 |   |   └── Dockerfile
 │   └── Dockerfile-stack
 └── templates/
-    └── my-starter/
-        └── .appsody-config.yaml
+    └── sample-hello/
+            └── .appsody-config.yaml
 ```
 
-## Image
+## Stack.yaml
+The stack.yaml defines different components of the stack and which template the stack should use by default. See the example below:
+```bash
+    id: sample-stack # must be unique, will be used by the CLI
+    name: Sample Application Stack # one liner description short meaningful name for the stack
+    version: 0.1.0 # version of the stack
+    description: sample stack to help creation of more appsody stacks # free form text explaining more about the capabilities of this stack and various templates
+    maintainer: John Smith <example@example.com> # comma separated list for more than one maintainer
+    default-template: sample-hello # name of default template
+    license: Apache-2.0 # license for the stack
+```
 
-The image provides foundational capabilities that can be extended or replaced by the user application that is based on it. The image has mechanisms to control which aspects can and cannot be overridden by the developer.
+## Stack Image
+Appsody application stacks are provided to developers as a docker image and include a pre-configured technology stack ready to start application development. It also has mechanisms to control which aspects can and cannot be overridden by the developer.
 
 ### Project directory:
 The project folder should contain a production [Dockerfile](#Dockerfile) for your application and the project you are going to contribute as a content provider.
