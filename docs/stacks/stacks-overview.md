@@ -11,39 +11,33 @@ Appsody stacks include language runtimes, frameworks and any additonal libraries
 
 **Template:** A template utilises the base image and provides a starter application that is ready to use. It leverages existing capabilities provided by that image and can extend functionality to meet your application requirements.
 
-## Using Stacks
-To get started using Appsody stacks go to [using-stacks](using-appsody.md) or use the [quick start](#quick-start).
-
-## Stack structure
-Each stack must follow the [stack structure](stack-structure.md) which explains each component of the stack and what is expected for it to be considered a stack.
-
-## Creating or Modifying
-To create or modify a stack go to [creating or modifying](https://github.com/appsody/stacks/blob/master/docs/create-or-modify.md) stacks.
-
-*Note:* to list all available Appsody stacks run `appsody list`.
-
-## Contributing Stacks
-Stacks are catagorised as either `stable`, `incubator` or `experimental` depending on the content of the stack. To contribute a stack you must read the [contributing guidelines](https://github.com/appsody/docs/blob/master/CONTRIBUTING.md) and be sure to create a new GitHub issue to track the discussion.
+---
+Stacks are catagorised as either `stable`, `incubator` or `experimental` depending on the content of the stack.
 
 - `stable/`: Stable stacks meet a set of technical requirements which are yet to be defined.
 
-- `incubator/`: The incubator folder allows stacks to be shared and improved on until they meet the stable critria.
+- `incubator/`: The stacks in the incubator folder are activly been worked upon to satisfy the stable critria.
 
-- `experimental/`: These stacks are labeled experimental as they may not fulfill the requirements of a appsody stack. Experimental stacks are also not expected to move out of this category into incubator or stable.
+- `experimental/`: Exprimental stacks are not been actively been worked upon and  may not fulfill the requirements of an Appsody stack. These can be used for trying out specific capabilites or proof of concept work.
 
-### Quick start
-1. Create a new directory
-``` bash
-mkdir my-app &&
-cd my-app
-```
-2. Initalise Appsody stack
-``` bash
-appsody init java-microprofile
-```
-3. Launch application in development environment
-``` bash
-appsody run
-```
+## Getting started
+Follow the [quick start guide](../getting-started/quick-start.md) to get you up and running with Apposdy stacks.
 
+To explore existing stacks that are available to you:
+- Visit the [Appsody website](https://appsody.dev) or
+- Run `appsody list` command using our CLI
+
+For detailed information about using Appsody go to [using-stacks](using-appsody.md).
+
+## Modifying existing stacks
+You might want to modify an existing stack to suit your development needs, for example you might want to use a different library or runtime version.
+
+To learn how to go about modifying an existing stack go to [modifying a stack](create-or-modify.md#modifying-a-stack).
+
+## Creating new stacks
+We are actively working to create new stacks so that more people can adopt Appsody. If you find that none of the existing stacks meet your needs please reach out to us on the [Appsody slack]() or create a new GitHub issue to track the discussion.
+
+We always welcome any contributions. If you wanted to create your own stack for a framework or language that we do not currently support, please review the [contributing guidelines](../../CONTRIBUTING.md) and follow the steps outlined in [creating a stack](create-or-modify.md#creating-a-stack).
+
+## Need help?
 If you have a question that you can't find an answer to, we would also like to hear about that too. You can also reach out to the community for assistance on [Slack]().
