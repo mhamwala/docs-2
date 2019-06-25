@@ -12,9 +12,3 @@ https://github.com/docs/CONTRIBUTING.md
 - [ ] commit message follows [commit guidelines](https://github.com/appsody/docs/blob/master/CONTRIBUTING.md#commit-message-guidelines)
 
 Fixes #issue-number
-
-## Proposed Changes
-
--
--
--
