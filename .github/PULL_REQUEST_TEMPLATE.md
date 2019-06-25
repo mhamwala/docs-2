@@ -2,7 +2,7 @@
 Thank you for your pull request. Please provide a description above and review
 the requirements below.
 
-For more information on contributing to the Appsody Docs, see the contributors guide: 
+For more information on contributing to the Appsody Docs, see the contributing guidelines:
 https://github.com/docs/CONTRIBUTING.md
 -->
 
