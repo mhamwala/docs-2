@@ -30,7 +30,7 @@ No project is complete without a nice new CLI to play with. The Appsody CLI is p
 
 ## Contributing
 
-We welcome all contributions, see [CONTRIBUTING](../CONTRIBUTING) and come chat to us in [Slack](if you'd like to get involved).
+We welcome all contributions, see [CONTRIBUTING](https://github.com/appsody/docs/blob/master/CONTRIBUTING.md) and come chat to us in [Slack](if you'd like to get involved).
 
 Want to see your framework available as an Appsody Stack? See [Link](here) and join the #content-providers channel on the above Slack to introduce yourself!
 
