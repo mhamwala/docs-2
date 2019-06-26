@@ -14,7 +14,7 @@ Appsody stacks include language runtimes, frameworks and any additonal libraries
 ---
 Stacks are catagorized as either `stable`, `incubator` or `experimental` depending on the content of the stack.
 
-- `stable/`: Stable stacks meet a set of technical requirements which are yet to be defined.
+- `stable/`: Stable stacks meet this set of [technical requirements](../../STABLE_TECHNICAL_REQUIREMENTS.md).
 
 - `incubator/`: The stacks in the incubator folder are actively being worked on to satisfy the stable critria.
 
