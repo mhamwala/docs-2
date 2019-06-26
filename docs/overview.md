@@ -44,14 +44,14 @@ Follow the links to learn more about Appsody:
 - [Installing Appsody](/docs/getting-started/installation.md)
 - [Quick Start](/docs/getting-started/quick-start.md)
 ### Stacks
-- [Overview of Stacks](/docs/stacks/stacks-overview.md)
+- [Stacks Overview](/docs/stacks/stacks-overview.md)
 - [Creating and Modifying Stacks](/docs/stacks/create-or-modify.md)
-- [Modifying Stacks](/docs/stacks/modifying-stacks.md)
+- [Stack Structure](/docs/stacks/stack-structure.md)
 ### Using Appsody
-- [Local Development](/docs/using-appsody/local-development.md)
-- [CLI commands](/docs/using-appsody/cli-commands.md)
 - [Creating Project](/docs/using-appsody/creating-project.md)
+- [Local Development](/docs/using-appsody/local-development.md)
 - [Building and Deploying](/docs/using-appsody/building-and-deploying.md)
+- [CLI commands](/docs/using-appsody/cli-commands.md)
 
 ## License
 This project is licensed under the Apache 2.0 license, and all contributed stacks must also be licensed under the Apache 2.0 license. Each contributed stack should include a LICENSE file containing the Apache 2.0 license. More information
