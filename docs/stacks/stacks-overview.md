@@ -27,7 +27,7 @@ To find a list of existing stacks that are available to you:
 - Visit the [Appsody website](https://appsody.dev) or
 - Run the `appsody list` command within the Apposdy CLI
 
-For detailed information about using Appsody go to [using-stacks](https://github.com/appsody/docs/tree/master/docs/using-appsody).
+For information on Appsody local development go [here](/docs/using-appsody/local-development.md).
 
 ## Modifying existing stacks
 You might want to modify an existing stack to suit your development needs, for example you might want to use a different library or runtime version.
