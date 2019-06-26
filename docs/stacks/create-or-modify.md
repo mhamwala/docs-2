@@ -5,9 +5,6 @@ section: Appsody Stacks
 ---
 # Creating and Modifying Stacks
 
-
-
-
 You might want to modify an existing stack to suit your development needs, for example you might want to use a different library or runtime version from an existing stack. We are actively working to create new stacks so that more people can adopt Appsody. If you find that none of the existing stacks meet your needs please reach out to us on the [Appsody Slack](https://appsody-slack.eu-gb.mybluemix.net/) or create a new GitHub issue to track the discussion.
 
 We always welcome any contributions. If you want to [create](#Creating-a-stack) or [modify](#Modifying-a-stack) a stack, please review the [contributing guidelines](https://github.com/appsody/docs/blob/master/CONTRIBUTING.md) and [code of conduct](https://github.com/appsody/docs/blob/master/CODE_OF_CONDUCT.md).
@@ -16,7 +13,7 @@ Use the following examples to help you get started creating, or modifying stacks
 
 ## Creating a stack
 
-The quickest way to create an Appsody stack from scratch is to build from the [sample stack](sample-stack/README.md) which is provided in this repository. Clone the sample:
+The quickest way to create an Appsody stack from scratch is to build from the [sample stack](https://github.com/appsody/stacks/tree/master/samples/sample-stack/README.md) which is provided in this repository. Clone the sample:
 
 1.
     ```bash
@@ -24,7 +21,7 @@ The quickest way to create an Appsody stack from scratch is to build from the [s
     cd docs/sample-stack
     ```
 
-2. Create your stack. See [structure of a stack](stack-structure.md) for a guide on what makes a stack.
+2. Create your stack. See [structure of a stack](/docs/stacks/stack-structure.md) for a guide on what makes a stack.
 
 3. In the image folder build your stack image:
 

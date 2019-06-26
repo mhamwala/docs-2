@@ -1,6 +1,6 @@
 ---
 title: "Overview"
-path: /docs/overview
+path: /docs
 ---
 # Welcome to Appsody
 Appsody has been designed to help you compose a masterpiece of an application for cloud.

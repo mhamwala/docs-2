@@ -41,7 +41,7 @@ Defines the final image that contains content from both the [image](#Image) and 
 ### Dockerfile-stack:
 The Dockerfile-stack defines the foundation application image, and a set of environment variables that specify the desired behaviour during local development cycle. It also defines what is exposed from the host machine to the container.
 
-The environment variables that can be set to alter the behaviour of the CLI and controller are described in the [environment variables](environment-variables) overview.
+The environment variables that can be set to alter the behaviour of the CLI and controller.
 
 ## Templates
 A template is a pre-configured starter application that is ready to use with a particular image. It has access to all the dependencies supplied by that image and is able to include new functionality and extra dependencies to enhance the image where allowed.

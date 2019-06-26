@@ -16,7 +16,7 @@ brew tap appsody/appsody
 brew install appsody
 ```
 
-To install Appsody on Windows or Linux, check out the [installation guide](installation.md).
+To install Appsody on Windows or Linux, check out the [installation guide](/docs/getting-started/installation.md).
 
 ## Using Appsody
 

@@ -14,20 +14,20 @@ Appsody stacks include language runtimes, frameworks and any additonal libraries
 ---
 Stacks are catagorized as either `stable`, `incubator` or `experimental` depending on the content of the stack.
 
-- `stable/`: Stable stacks meet this set of [technical requirements](../../STABLE_TECHNICAL_REQUIREMENTS.md).
+- `stable/`: Stable stacks meet this set of [technical requirements](https://github.com/appsody/docs/blob/master/STABLE_TECHNICAL_REQUIREMENTS.md).
 
 - `incubator/`: The stacks in the incubator folder are actively being worked on to satisfy the stable critria.
 
 - `experimental/`: Exprimental stacks are not being actively been worked on and may not fulfill the requirements of an Appsody stack. These can be used for trying out specific capabilites or proof of concept work.
 
 ## Getting started
-Follow our [Quick Start Guide](../getting-started/quick-start.md) to get you up and running with Apposdy.
+Follow our [Quick Start Guide](/docs/getting-started/quick-start.md) to get you up and running with Apposdy.
 
 To find a list of existing stacks that are available to you:
 - Visit the [Appsody website](https://appsody.dev) or
 - Run the `appsody list` command within the Apposdy CLI
 
-For detailed information about using Appsody go to [using-stacks](using-appsody.md).
+For detailed information about using Appsody go to [using-stacks](https://github.com/appsody/docs/tree/master/docs/using-appsody).
 
 ## Modifying existing stacks
 You might want to modify an existing stack to suit your development needs, for example you might want to use a different library or runtime version.
