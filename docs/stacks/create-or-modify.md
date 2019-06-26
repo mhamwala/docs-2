@@ -5,7 +5,7 @@ section: Stacks
 ---
 # Creating and Modifying Stacks
 
-You might want to modify an existing stack to suit your development needs, for example you might want to use a different library or runtime version from and existing stack. We are actively working to create new stacks so that more people can adopt Appsody. If you find that none of the existing stacks meet your needs please reach out to us on the [Appsody slack]() or create a new GitHub issue to track the discussion.
+You might want to modify an existing stack to suit your development needs, for example you might want to use a different library or runtime version from an existing stack. We are actively working to create new stacks so that more people can adopt Appsody. If you find that none of the existing stacks meet your needs please reach out to us on the [Appsody Slack](https://appsody-slack.eu-gb.mybluemix.net/) or create a new GitHub issue to track the discussion.
 
 We always welcome any contributions. 
 
