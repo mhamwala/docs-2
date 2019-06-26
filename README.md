@@ -14,4 +14,4 @@ If you find a bug, such as a typo, or are confused by our documentation, please 
 
 ## Community
 
-Join our [Slack] to meet the team, ask for help, and talk about Appsody!
+Join our [Slack](https://appsody-slack.eu-gb.mybluemix.net/) to meet the team, ask for help, and talk about Appsody!
