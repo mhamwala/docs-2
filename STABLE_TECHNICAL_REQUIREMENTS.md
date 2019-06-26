@@ -9,3 +9,5 @@
     - RedHat Enterprise Linux 7.4
     - Windows 10
 - Must adhere to the [Structure of a stack](docs/stacks/stack-structure.md) where possible
+---
+**NOTE:** This is still a work in progress as we are working on defining this set of technical requirements.
