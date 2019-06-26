@@ -13,7 +13,7 @@ my-stack
 |   |   └── Dockerfile
 │   └── Dockerfile-stack
 └── templates/
-    └── sample-hello/
+    └── my-template/
             └── .appsody-config.yaml
 ```
 
@@ -25,7 +25,7 @@ The stack.yaml defines different components of the stack and which template the 
     version: 0.1.0 # version of the stack
     description: sample stack to help creation of more appsody stacks # free form text explaining more about the capabilities of this stack and various templates
     maintainer: John Smith <example@example.com> # comma separated list for more than one maintainer
-    default-template: sample-hello # name of default template
+    default-template: my-template # name of default template
     license: Apache-2.0 # license for the stack
 ```
 
