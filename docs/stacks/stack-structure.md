@@ -20,8 +20,8 @@ my-stack
 ## Stack.yaml
 The stack.yaml defines different components of the stack and which template the stack should use by default. See the example below:
 ```bash
-    id: sample-stack # must be unique, will be used by the CLI
-    name: Sample Application Stack # one liner description short meaningful name for the stack
+    id: sample-stack # short name for the stack, must be unique, will be used by the CLI
+    name: Sample Application Stack # concise one line name for the stack
     version: 0.1.0 # version of the stack
     description: sample stack to help creation of more appsody stacks # free form text explaining more about the capabilities of this stack and various templates
     maintainer: John Smith <example@example.com> # comma separated list for more than one maintainer
@@ -30,7 +30,7 @@ The stack.yaml defines different components of the stack and which template the 
 ```
 
 ## Stack Image
-Appsody application stacks are provided to developers as a docker image and include a pre-configured technology stack ready to start application development. It also has mechanisms to control which aspects can and cannot be overridden by the developer.
+Appsody application stacks are provided to developers as a Docker image and include a pre-configured technology stack ready to start application development. It also has mechanisms to control which aspects can and cannot be overridden by the developer.
 
 ### Project directory:
 The project folder should contain a production [Dockerfile](#Dockerfile) for your application and the project you are going to contribute as a content provider.
