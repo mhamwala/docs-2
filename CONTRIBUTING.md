@@ -26,9 +26,9 @@ A good bug report is one that make it easy for everyone to understand what you w
 ## Setting up to contribute to Appsody
 
 Check out this
-[README](https://github.com/appsody/README.md) to learn
+[README](https://github.com/appsody/docs/blob/master/README.md) to learn
 about the Appsody source base and setting up your
-[development environment](https://github.com/appsody/docs/docs/using-appsody/local-development).
+[development environment](https://github.com/appsody/docs/blob/master/docs/using-appsody/local-development.md).
 
 ## Commit message guidelines
 
