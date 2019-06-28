@@ -58,7 +58,7 @@ This command does the following:
 3) It creates a Knative Serving manifest file named `appsody-service-nnnnnn.yaml`, where <nnnnnn> is a random numerical value. This yaml file is then used to issue a `kubectl apply -f` command against the target Kubernetes cluster. This yaml file is then used to issue a `kubectl apply -f` command against the target Kubernetes cluster.
 
 ### Deploying your application by pushing your image to Docker Hub
-If your cluster is configured to pull imaeges from Docker Hub, here is how you would deploy your application:
+If your cluster is configured to pull images from Docker Hub, here is how you would deploy your application:
 ```
 appsody deploy -t <myaccount/appsody-project> --push --namespace mynamespace
 ```

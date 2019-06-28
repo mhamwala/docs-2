@@ -44,7 +44,10 @@ To remove Appsody, run `brew uninstall appsody`. You may also want to remove the
 
 Ensure the [prerequisites](#Prerequisites) are met.
 
-You should also make sure that **your user is a member of the `docker` group**. This is necessary for Appsody to run correctly.
+You should also make sure that **your user is a member of the `docker` group**. This is necessary for Appsody to run correctly. You can do this by executing the following command after substituting in your user for XXXX:
+```
+sudo usermod -aG docker XXXX
+```
 
 To install Appsody on your system follow these steps:
 1) Download the latest **Debian install package** from the [Appsody releases page](https://github.com/appsody/appsody/releases). The file is named `appsody_v.r.m_amd64.deb`, where `v.r.m` indicates the release tag.
