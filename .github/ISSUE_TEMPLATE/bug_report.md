@@ -6,7 +6,7 @@ labels: ''
 assignees: ''
 ---
 
-**Describe the bug/expected behaviour**
+**Describe the bug**
 A clear and concise description of what the bug is.
 
 **To Reproduce**
@@ -18,6 +18,9 @@ Steps to reproduce the behavior:
 
 **Expected behavior**
 A clear and concise description of what you expected to happen.
+
+**Actual behaviour**
+What is the actual behaviour.
 
 **Environment Details (please complete the following information):**
  - OS: [e.g. iOS]
