@@ -27,6 +27,10 @@ What is the actual behaviour.
  - Browser [e.g. chrome, safari]
  - Version [e.g. 22]
 
+**If applicable please specify:**
+ - CLI version:
+ - Stack you are using:
+
 **Screenshots**
 If applicable, add screenshots to help explain your problem.
 
