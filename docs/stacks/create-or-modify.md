@@ -9,7 +9,7 @@ You might want to modify an existing stack to suit your development needs, for e
 
 We always welcome any contributions. If you want to [create](#Creating-a-stack) or [modify](#Modifying-a-stack) a stack, please review the [contributing guidelines](https://github.com/appsody/docs/blob/master/CONTRIBUTING.md) and [code of conduct](https://github.com/appsody/docs/blob/master/CODE_OF_CONDUCT.md).
 
-Use the following examples to help you get started creating, or modifying stacks. Stacks contain specific files laid out in a particular directory tree, you can learn more about these in our [Structure of a stack](/docs/stacks/stack-structure.md) guide. This knowledge will be helpful if you'd like to create or modify stacks.
+Use the following examples to help you get started creating, or modifying stacks. Stacks contain specific files laid out in a particular directory tree, you can learn more about these in our [structure of a stack](/docs/stacks/stack-structure.md) guide. This knowledge will be helpful if you'd like to create or modify stacks.
 
 ## Creating a stack
 
